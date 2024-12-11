@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tictactoe</title>
+    <link rel="stylesheet" href="tictactoe.css" />
+  </head>
+  <body>
+    <div id="outer" class="outer-body">
+      <div class="second-body">
+        <button onclick="change(this, 0)" class="button"></button>
+        <button onclick="change(this, 1)" class="button"></button>
+        <button onclick="change(this, 2)" class="button"></button>
+        <button onclick="change(this, 3)" class="button"></button>
+        <button onclick="change(this, 4)" class="button"></button>
+        <button onclick="change(this, 5)" class="button"></button>
+        <button onclick="change(this, 6)" class="button"></button>
+        <button onclick="change(this, 7)" class="button"></button>
+        <button onclick="change(this, 8)" class="button"></button>
+      </div>
+    </div>
+    <div class="leader-board">
+      <h1>Leaderboard</h1>
+      <ul class="Leaderboard-ul">
+        <li class="leaderboard-li">
+          <span>X score :</span><span id="scoreX">0</span>
+        </li>
+        <li><span>O score :</span><span id="scoreO">0</span></li>
+      </ul>
+    </div>
+
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
